@@ -1,0 +1,73 @@
+.contact_heading{
+    font-size: 100px;
+    color: rgb(14, 14, 43);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.contact_form_wraper{
+    display: flex;
+    justify-content: space-around;
+}
+.get_heading{
+    font-size: 25px;
+    color: rgb(14, 14, 43);
+}
+.textra{
+    width: 605px;
+    height: 200px;
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.name,
+.email{
+    width: 300px;
+    height: 40px;
+    border: 1px solid grey;
+    color: grey; 
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.subject{
+    width: 605px;
+    height: 40px;
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 3px;
+    margin-bottom: 20px; 
+}
+.contact_btn{
+    width: 150px;
+    height: 60px;
+    color: green;
+    background-color: transparent;
+    border: 1px solid green;
+}
+.contact_btn_box{
+    padding-bottom: 50px;
+}
+.home_adress,
+.phone_number,
+.email_adress{
+    display: flex;
+}
+.home{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.phone{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    padding-right: 25px;
+}
+.mail{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    padding-right: 22px;
+}

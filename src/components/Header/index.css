@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.header{
+  box-shadow: 0px 1px 30px 0px;
+}
+.header_row1_wraper{
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(223, 220, 220);
+}
+.social_icon img{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+}
+.lang_selector{
+    border: none;
+    color: grey;
+    font-size: 16px;
+}
+.header_contact_number{
+    font-size: 15px;
+    letter-spacing: 1px ;
+    color: grey;
+    padding-left: 30px;
+}
+.social_icon{
+    display: flex;
+    gap: 10px;
+}
+.header_row_1{
+    display: flex;
+    gap: 20px;
+}
+
+.header_language{
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+}
+.header_subscribe{
+    color: grey;
+    font-size: 15px;
+}
+
+/*website haeding*/
+
+.website_heading{
+    width: 140px;
+    height: 38px;
+    padding: 10px 0px 0px 50px;
+}
+.header_row2_wraper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.nav_bar{
+    display: flex;
+    gap: 50px;
+}
+.nav_bar :link{
+    text-decoration: none;
+    padding-left: 30px;
+}   
+.nav_link{
+    color: grey;
+    font-size: 18px;
+}
+.link_wraper{
+    padding-top: 15px;
+}
+.donate_btn{
+    background-color: rgb(35, 150, 35);
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    font-size: 19px;
+}
+.donate{
+    padding: 0px 20px 20px 0px;
+}

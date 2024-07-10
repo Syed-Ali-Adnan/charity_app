@@ -1,0 +1,40 @@
+.footer{
+    background-color: rgb(14, 14, 43);
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+}
+.footer_logo{
+    padding: 150px 150px 250px 100px;
+}
+.footer_sub_heading{
+    color: white;
+    padding-bottom: 25px;
+}
+.footer_txt{
+    color: grey;
+    padding-bottom: 20px;
+}
+.col2,
+.col3,
+.col4{
+    padding: 100px 0px 100px 0px;
+}
+.imp_link :link{
+    text-decoration: none;
+    display: block;
+}
+.footer_email_bar_wraper{
+    display: flex;
+}
+.footer_input{
+    border: none;
+    color: grey;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    display: flex;
+}
+.send_btn{
+    width: 35px;
+    height: 30px;
+}
