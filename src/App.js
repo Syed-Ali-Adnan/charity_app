@@ -14,6 +14,7 @@ import Layout from "./pages/Layout";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Social from "./pages/Social";
+import MainPage from "./pages/MainPage"
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <MainPage />,
       },
       {
         path: "/about",
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
         path: "/footer",
         element: <Footer />,
       },
+      {
+        path: "/mainPage",
+        element: <MainPage />,
+      }
     ],
   },
 ]);

@@ -1,0 +1,77 @@
+.jumbo{
+    display: flex;
+    justify-content: space-between;
+}
+.jumbpo_pic img{
+    width: 400px;
+    height: 450px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 200px;
+}
+.jumbo_heading{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(14, 14, 43);
+    padding-left: 70px;
+    padding-top: 50px;
+    letter-spacing: 5px;
+}
+.jumbo_txt{
+    padding-left: 70px;
+    font-size: 20px;
+    color: grey;
+}
+.jumbo_btn{
+    display: flex;
+    gap: 90px;
+}
+.jumbo_donate_btn{
+    padding: 20px 55px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(72, 173, 72);
+    border: none;
+    margin-left: 70px;
+}
+.jumbo_num{
+    font-size: 20px;
+    color: rgb(14, 14, 43)
+}
+.jumbo_phone_pic{
+    width: 50px;
+    height: 50px;
+}
+.jumbo_phone_wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all_Volunteer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.vol_team_name{
+    color: rgb(14, 14, 43);
+    text-align: center;
+}
+.vol_team_post{
+    color: grey;
+    text-align: center;
+}
+.home_blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.home_blog_poster{
+    color: grey;
+    font-size: 20px;
+}
+.home_blog_title{
+    color: rgb(14, 14, 43);
+    font-size: 22px;
+}
