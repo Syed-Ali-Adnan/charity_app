@@ -1,0 +1,66 @@
+.poorty_rate_card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 100px 60px 100px 60px ;
+    background-color: rgb(221, 215, 215);
+}
+.latest_heading {
+    font-size: 100px;
+    color: rgb(14, 14, 43);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+.poorty_rate_card1{
+    width: 380px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.poorty_card_img{
+    width: 380px;
+    height: 250px;
+}
+.poorty_card_heading{
+    font-size: 20px;
+    color: rgb(14, 14, 43);
+    font-weight: 700;
+}
+.green_progress_bar1{
+    width: 280px;
+    height: 8px;
+    background-color: green;
+}
+.green_progress_bar2{
+    width: 100px;
+    height: 8px;
+    background-color: green;
+}
+.green_progress_bar3{
+    width: 200px;
+    height: 8px;
+    background-color: green;
+}
+.progress_bar{
+    padding-left: 250px;
+    color: green;
+    font-weight: 600;
+}
+.progress_bar2{
+    padding-left: 75px;
+    color: green;
+    font-weight: 600;
+}
+.progress_bar3{
+    padding-left: 170px;
+    color: green;
+    font-weight: 600;
+}
+.raised_goal{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(14, 14, 43);
+}

@@ -76,6 +76,7 @@
     align-items: center;
     margin: 0 auto;
     opacity: 0.8;
+    margin-top: 100px;
 }
 .volunteer_txt{
     color: white;
@@ -87,4 +88,37 @@
     border: none;
     padding: 20px 50px;
     font-size: 17px;
+}
+.our_team{
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+}
+
+.italic{
+    font-style: italic;
+    color: grey;
+    font-size: 25px;
+}
+.marget_heading{
+    color: rgb(14, 14, 43);
+    font-size: 27px;
+}
+.marget_sub_heading{
+    color: grey;
+    font-size: 25px;
+}
+.donation{
+    background-color: rgb(12, 87, 12);
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+.donation_num{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500; 
 }

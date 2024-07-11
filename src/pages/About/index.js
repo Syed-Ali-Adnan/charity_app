@@ -55,8 +55,27 @@ const About = () =>{
           </section>
           <section className="our_team">
             <img src={margaret}></img>
-            <p>Margaret Lawson</p>
-            <p>Creative Director</p>
+            <p className="marget_heading">Margaret Lawson</p>
+            <p className="marget_sub_heading">Creative Director</p>
+            <p className="italic">"I am at an age where I just want to be fit and healthy our bodies <br></br> are our responsibility! So start caring for your body and it will <br></br>care for you. Eat clean it will care for you and workout hard."</p>
+          </section>
+          <section className="donation">
+            <div className="donation_num">
+                <p>6,200+</p>
+                <p>Donation</p>
+            </div>
+            <div className="donation_num">
+                <p>80+</p>
+                <p>Fund Raised</p>
+            </div>
+            <div className="donation_num">
+                <p>256+</p>
+                <p>Donation</p>
+            </div>
+            <div className="donation_num">
+                <p>256+</p>
+                <p>Donation</p>
+            </div>
           </section>
           <Footer/>
         </div>
